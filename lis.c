@@ -8,7 +8,6 @@
 static const float delta = M_PI/4.0;
 static const float rate = 1.0f;
 static const float dTH = 0.01f;
-
 int x_lis(int a,float theta) {
   return (int)hx*(1.0f-rate*cos(a*theta)); 
 }
